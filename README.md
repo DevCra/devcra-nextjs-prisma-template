@@ -1,18 +1,23 @@
-# DevCra Next.js Template
+# DevCra Next.js + Prisma Template
 
 프론트 개발용 템플릿
 
-- Next.js v14.2.5
-- Tailwind CSS v3.4.1
+- Next.js v15.2.1
+- Prisma v6.3.1
+- React v19.0.0
+- Tailwind CSS v4.0
 
 ## Getting Started
 
 ```bash
 $ yarn
+$ cp .env.sample .env.local
 $ yarn dev
 ```
 
 기본 폰트는 PretendardStd 를 사용합니다. (https://cactus.tistory.com/306)
+
+Prisma는 기본적으로 mysql 을 사용합니다.
 
 ## Contact
 
