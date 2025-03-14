@@ -12,6 +12,8 @@
 ```bash
 $ yarn
 $ cp .env.sample .env.local
+$ sed -i '' "s|^AUTH_SECRET=.*|AUTH_SECRET=$(openssl rand -base64 33)|" .env.local
+// .env.local에 AUTH_SECRET 추가
 $ yarn dev
 ```
 
